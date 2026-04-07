@@ -1,32 +1,20 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>TikTok Upload Demo</title>
-  <style>
-    body { font-family: Arial; text-align: center; margin-top: 100px; }
-    button { padding: 15px 30px; font-size: 16px; margin: 10px; cursor: pointer; }
-    #status { margin-top: 20px; font-size: 18px; }
-  </style>
+  <title>Outpost</title>
 </head>
 <body>
-  <h1>TikTok Upload Demo</h1>
-  <button onclick="connect()">Connect TikTok</button>
-  <br>
-  <input type="file" id="file" style="display:none">
-  <button onclick="upload()">Upload Video</button>
-  <div id="status">Not connected</div>
+  <h1>Outpost</h1>
 
-  <script>
-    function connect() {
-      document.getElementById("status").innerText = "TikTok connected";
-    }
-    function upload() {
-      document.getElementById("status").innerText = "Uploading...";
-      setTimeout(function() {
-        document.getElementById("status").innerText = "Uploaded successfully";
-      }, 1500);
-    }
-  </script>
+  <p>This is Outpost.</p>
+
+  <p>
+    <a href="/privacy.html">Privacy Policy</a>
+  </p>
+
+  <p>
+    <a href="/terms.html">Terms of Service</a>
+  </p>
+
 </body>
 </html>
