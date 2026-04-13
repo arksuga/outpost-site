@@ -1,5 +1,13 @@
 <html>
   <body>
     <h1>callback alive</h1>
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const code = params.get("code");
+      const state = params.get("state");
+
+      document.body.innerHTML += "<p>code: " + code + "</p>";
+      document.body.innerHTML += "<p>state: " + state + "</p>";
+    </script>
   </body>
 </html>
